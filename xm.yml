@@ -13775,8 +13775,6 @@ components:
               type: string
             plan:
               $ref: '#/components/schemas/PlanReference'
-            owner:
-              $ref: '#/components/schemas/PersonReference'
             scope:
               type: string
               enum:
@@ -13799,11 +13797,6 @@ components:
               $ref: '#/components/schemas/Properties'
             roles:
               $ref: '#/components/schemas/RolePagination'
-            targetAllDevices:
-              description: Target all device types
-              type: boolean
-            isTargetAllDevicesVisible:
-              type: boolean
             targetDeviceNames:
               description: Target specific device names
               $ref: '#/components/schemas/DeviceNamePagination'
